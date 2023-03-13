@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "chaine.h"
 
+
 int main() {
 
     Chaine chaine = creerChaine("Buger de Papa");
@@ -11,7 +12,7 @@ int main() {
 
     //creation de dix table dans le restaurant
     for (int i = 0; i < 10; ++i) {
-        ajouterTable(&resto1);
+        creerTable(&resto1);
     }
 
     Personne personne1 = {"Tossou","Jp"};

@@ -5,8 +5,9 @@
 #ifndef RESTO_PLAT_H
 #define RESTO_PLAT_H
 
-#endif //RESTO_PLAT_H
 typedef struct Plat{
     char *nom;
     float prix;
 } Plat;
+
+#endif //RESTO_PLAT_H

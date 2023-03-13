@@ -5,5 +5,9 @@
 #ifndef RESTO_UTILS_H
 #define RESTO_UTILS_H
 
-#endif //RESTO_UTILS_H
+
 void* ajout( void* pointeur, int taille);
+
+
+#endif //RESTO_UTILS_H
+

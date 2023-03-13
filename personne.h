@@ -5,9 +5,13 @@
 #ifndef RESTO_PERSONNE_H
 #define RESTO_PERSONNE_H
 
-#endif //RESTO_PERSONNE_H
+typedef struct Personne Personne;
 
-typedef struct Personne{
+struct Personne{
     char* nom;
     char* prenom;
-} Personne;
+};
+
+#endif //RESTO_PERSONNE_H
+
+

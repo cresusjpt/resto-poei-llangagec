@@ -4,7 +4,7 @@
 
 #include "table.h"
 
-Table ajouterTable(Resto *resto){
+Table creerTable(Resto *resto){
     int identifiant = resto->nombreTable;
     Table t = {.identifiant=identifiant+1, .free=false };
     resto->nombreTable++;

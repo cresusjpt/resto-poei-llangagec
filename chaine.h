@@ -4,11 +4,12 @@
 
 #ifndef RESTO_CHAINE_H
 #define RESTO_CHAINE_H
+#include "chaine.h"
 #include "resto.h"
 #include "utils.h"
 #include <stdlib.h>
 
-#endif //RESTO_CHAINE_H
+
 typedef struct Chaine Chaine;
 
 struct Chaine{
@@ -21,3 +22,7 @@ Chaine creerChaine(char *nom);
 
 void ajoutResto(Chaine *chaine, Resto resto);
 void supprimerResto(Chaine *chaine, Resto resto);
+
+
+#endif //RESTO_CHAINE_H
+
